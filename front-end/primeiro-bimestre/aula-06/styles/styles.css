@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+article{
+    background-color: crimson;
+    background-image: url('https://thumbs.dreamstime.com/b/mulher-que-senta-se-apenas-na-rua-no-meio-do-nada-conceito-desejo-por-viajar-103402577.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom ;
+    height: 200px;
+}
+
+h1{
+    
+    background-position: center;
+    font-family: 'Zen Antique Soft', serif;
+    
+} 
+
+media-picture{
+
+    background-image: url('https://t.ctcdn.com.br/_-NneE3DUArGpytxFpYKv3104Uc=/35x0:622x330/512x288/smart/i323519.jpeg');
+
+}
