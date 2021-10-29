@@ -12,13 +12,18 @@
 
 .job-title{
 
-    color: #1726ad;
+    color: rgb(23, 38, 173);
     background-color: #898dbe;
 }
 
 
-.highid{
-color: 13, 27, 151;
+#high{
+ color: rgb(13, 27, 151);
+}
+
+ul{
+    background-color: #333333;
+    color:rgb(223, 215, 185)
 
 }
  
