@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+.caixa {
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 24px;
+    
+
+    
+}
+
+.caixa-interna{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 11, 89);
+
+}
+
+
+
+.caixa-2 {
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 24px;
+    position: relative;
+    left: 1317px;
+    bottom: 200px;
+    
+}
+
+.caixa-interna-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 11, 89);
+
+}
+
+
+.caixa-3 {
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 24px;
+    position: relative;
+    left: 45% ;
+    top: 90px;
+}
+
+.caixa-interna-3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(11, 11, 89);
+   
+}
