@@ -6,13 +6,11 @@
     
 }
 div{
-    background-image: url("https://swall.teahub.io/photos/small/30-309544_eye-background-wallpaper-banner-header-red-red-color.jpg");
     height: 1200px;
     width: 720;  
     padding: 100px 20px 100px 20px;
     box-sizing: border-box;
     background-size: cover;
-
 }
 h1{
     color: blue;
