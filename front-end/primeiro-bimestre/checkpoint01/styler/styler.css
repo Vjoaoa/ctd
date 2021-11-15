@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@1,300&family=Zen+Antique+Soft&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/544/620/1019/2014-fifa-world-cup-brazil-stadium-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center ;
+}
+
+
+header{
+    padding:10px;
+}
+
+.bhTitulo{
+    
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.796);
+    padding: 1% ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+
+main{
+    
+    font-size: 20px ;
+    color: rgb(247, 244, 244);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Antique Soft', serif;
+
+}
+
+.video{
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 4px;
+}
+
+h2{
+    text-align: center;
+}
+
+.curiosidade{
+    text-align: center;
+}
+
+.final{
+    text-align: center;
+}
+
+
+
+
+
