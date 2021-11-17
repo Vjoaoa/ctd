@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <div class="roda">
+            <img src="https://i.pinimg.com/564x/d9/22/c1/d922c1287a5aa91e10f92f44fa0f59d1--pixels-com-blog-layout.jpg" alt="roda"
+            width="100px" >
+        </div>
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <div class="DP">
+                    <label for="username">Nome Completo</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div>
+                    <label for="data">Data de nacimento</label>
+                    <input type="date" name="data" id="data">
+                <div>
+                    <label for="dataHora">Data e hora</label>
+                    <input type="datetime-local" name="dataHora" id="dataHora">
+                </div>
+                <div>
+                    <label for="hora">Horas</label>
+                    <input type="time" name="hora" id="hora">
+                </div>
+
+                <div>
+                    <label for="userEmail">E-mail</label>
+                    <input type="email" name="userEmail" id="userEmail" required>
+                </div>
+
+                <div>
+                    <label for="userPassword">Senha</label>
+                    <input type="password" name="userPassword" id="userPassword">
+                </div>
+
+                <div>
+                    <label for="userDescription">Depoimento</label>
+                    <textarea name="userDescription" id="userDescription"></textarea>
+                </div>
+            </fieldset>
+
+            <h1>Monte seu bolo</h1>
+
+            <fieldset>
+                <legend>Pedidos</legend>
+                    <div>
+                        <input type="radio" name="pagamento" id="credit" checked>
+                        <label for="credit">Bolo chocolate</label>
+                        
+                        <input type="radio" name="pagamento" id="debito">
+                        <label for="debito">Bolo morango</label>
+                    </div>
+            </fieldset>
+                
+            <fieldset> 
+                <legend>cobertura</legend>  
+                <div>
+                    <input type="radio" name="empresa" id="empresa-1" checked>
+                    <label for="empresa-1">Cobertura morango</label>
+
+                    <input type="radio" name="empresa" id="empresa-2">
+                    <label for="empresa-2">Cobertura chocolate</label>
+
+                    <input type="radio" name="empresa" id="empresa-3">
+                    <label for="empresa-3">Cobertura balmilha</label>
+                </div>
+            </fieldset>
+
+            <fieldset> 
+                <legend>Frutas</legend>  
+                <div>
+                    <input type="radio" name="Frutas" id="morango" checked>
+                    <label for="morango">morango</label>
+
+                    <input type="radio" name="Frutas" id="banana">
+                    <label for="banana">Banana</label>
+
+                    <input type="radio" name="Frutas" id="kiwi">
+                    <label for="kiwi">Kiwi</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Acresimos</legend>
+                <div>
+                    <input type="checkbox" name="Acresimos" id="acrecimo1">
+                    <label for="acrecimo1">Granunado</label>
+
+                    <input type="checkbox" name="Acresimos" id="acrecimo2">
+                    <label for="acrecimo2">Frutas secas</label>
+                </div>
+            </fieldset>
+            <div>
+                <label for="tamanho">tamanho</label>
+                <select name="tamanho" id="tamanho">
+                    <option value="1">Pequeno</option>
+                    <option value="2">Médio</option>
+                    <option value="3">Grande</option>
+                </select>
+            </div>
+
+            
+            <fieldset>
+                <legend>Pagamentos</legend>
+                    <div>
+                        <input type="radio" name="pagamento" id="credit" checked>
+                        <label for="credit">Crédito</label>
+                        
+                        <input type="radio" name="pagamento" id="debito">
+                        <label for="debito">Debito</label>
+                        
+                        <input type="radio" name="pagamento" id="boleto">
+                        <label for="boleto">Boleto</label>
+                    </div>
+            </fieldset>
+
+            <button type="reset">Cancelar</button>
+            <button type="submit">Pedir</button>
+
+
+        </form>
+
+    </main>
+
+</body>
+</html>

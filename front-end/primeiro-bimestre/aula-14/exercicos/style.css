@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://besthqwallpapers.com/Uploads/27-6-2018/57332/thumb2-cheesecake-4k-berries-blueberries-fruit-pie.jpg");
+    background-size: cover;
+}
+
+.DP{
+    padding: 10px;
+}
+
+fieldset{
+    border: 2px rgb(14, 4, 82) solid;
+    border-radius: 10px;
+    width: 40%;
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <div>
+                    <label for="username">Nome Completo</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div>
+                    <label for="data">Data de nacimento</label>
+                    <input type="date" name="data" id="data">
+
+                    <label for="dataHora">Data e hora</label>
+                    <input type="datetime-local" name="dataHora" id="dataHora">
+
+                    <label for="hora">Horas</label>
+                    <input type="time" name="hora" id="hora">
+                </div>
+
+                <div>
+                    <label for="userEmail">E-mail</label>
+                    <input type="email" name="userEmail" id="userEmail">
+                </div>
+
+                <div>
+                    <label for="userPassword">Senha</label>
+                    <input type="password" name="userPassword" id="userPassword">
+                </div>
+
+                <div>
+                    <label for="userDescription">Depoimento</label>
+                    <textarea name="userDescription" id="userDescription"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pagamentos</legend>
+                    <div>
+                        <input type="radio" name="pagamento" id="credit" checked>
+                        <label for="credit">Crédito</label>
+                        
+                        <input type="radio" name="pagamento" id="debito">
+                        <label for="debito">Debito</label>
+                        
+                        <input type="radio" name="pagamento" id="boleto">
+                        <label for="boleto">Boleto</label>
+                    </div>
+            </fieldset>
+                
+            <fieldset> 
+                <legend>Empresas</legend>  
+                <div>
+                    <input type="radio" name="empresa" id="empresa-1" checked>
+                    <label for="empresa-1">empresa 1</label>
+
+                    <input type="radio" name="empresa" id="empresa-2">
+                    <label for="empresa-2">empresa 2</label>
+
+                    <input type="radio" name="empresa" id="empresa-3">
+                    <label for="empresa-3">empresa 3</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Agendamento entrega</legend>
+                <div>
+                    <label for="date">Data de nacimento</label>
+                    <input type="date" name="date" id="date" min="2020-02-03">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Prodtos</legend>
+                <div>
+                    <input type="checkbox" name="podruto" id="produto-1">
+                    <label for="produto-1">carregador</label>
+
+                    <input type="checkbox" name="podruto" id="produto-2">
+                    <label for="produto-2">fone</label>
+                </div>
+            </fieldset>
+            <div>
+                <label for="userPlan">Plano</label>
+                <select name="userPlan" id="userPlan">
+                    <option value="1">Básico</option>
+                    <option value="2">Médio</option>
+                    <option value="3">Premium</option>
+                </select>
+            </div>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
