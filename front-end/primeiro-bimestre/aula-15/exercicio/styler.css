@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.botao{
+    color: blanchedalmond;
+    background-color: blue;
+    border-radius: 12px;
+    border: 0;
+    padding: 12px 32px;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: red;
+}
+
+.botao:focus{
+    background-color: rgb(10, 1, 1);
+}
+
+.intem{
+    padding: 12px;
+
+}
+
+.intem{
+    list-style: none;
+}
+
+.intem ul li{
+    color: rgb(47, 0, 255);
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.intem ul li:nth-child(2){
+    background-color: chartreuse;
+}
+
+.intem::first-letter{
+    
+
+}
+
+.caixa:checked{
+    width: 25px;
+    height: 25px;
+}
