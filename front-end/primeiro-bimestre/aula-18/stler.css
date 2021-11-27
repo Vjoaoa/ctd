@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+
+aside{
+    background-color: blue;
+}
+
+footer{
+    background-color: rgb(50, 51, 50);
+}

@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    padding: 24px;
+}
+p{
+    color: blanchedalmond;
+    margin-top: 30px;
+}
+
+.buto{
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: rgb(8, 162, 111);
+    transition: 0.5s ease-in-out ;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5;
+    /* transition-delay: 1s;
+    transition-property: backgroud, padding;
+    transform-origin: right bottom; */
+}
+
+
+
+.buto:hover{
+    background-color :rgb(7, 7, 7);
+    padding: 28px;
+    /* transform: scale(1.02) skew(10deg);
+    transform: translate(25px, 24px); */
+    transform: rotate(120deg);
+   
+}
+@keyframes vixx{
+
+    0%{
+        opacity: 2;
+        transform: translate((0,-100));
+    }
+    50%{
+        opacity: 3;
+        font-size: 250px;
+        transform: translate(0,100px);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,-100px);
+    }
+
+}
+
+span{
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-top: 32px;
+    animation-name: vixx;
+    animation-duration: 2s;
+    animation-timing-function: infinite;
+}
+
