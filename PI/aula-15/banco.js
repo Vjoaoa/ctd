@@ -1,16 +1,36 @@
-function BancodeDado(nconta,Tconta,saldo,Ticonta) {
-    this.nconta=numeros;
-    this.Tconta=tipo;
-    this.saldo=saldo;
-    this.Ticonta=tilular;
+const dados = require("./dados.js");
+const dadosJSON = dados.dados
+
+function ContaBancaria(numero, tipo, saldo, titular) {
+    this.numero = numero;
+    this.tipo = tipo;
+    this.saldo = saldo;
+    this.titular = titular;
 }
 
-const jason = requerie('./jason')
-let contasBanco = [];
-for (BancodeDado in jason) {
-    contasBanco.push(new Conta(jason[contasBanco].nconta, jason[contasBanco].Tconta, jason[contasBanco].saldo, jason[contasBanco].Ticonta));
-};
+let listaUsuarios = []
+for (var i = 0; i < dadosJSON.length; i++) {
+    listaUsuarios.push(new ContaBancaria(dadosJSON[i].numero, dadosJSON[i].tipo, dadosJSON[i].saldo, dadosJSON[i].titular))
+}
 
-console.log(contasBanco);
+console.log(listaUsuarios[0]) 
+
+banco = {
+    clientes: listaUsuarios,
+    consultarCliente: function(titular) {
+        for (var i = 0; i < listaUsuarios.length; i++) {
+            if (listaUsuarios[i].titular === titular) {
+                return listaUsuarios[i];
+            }
+        }
+        return undefined;
+    }
+}
+
+console.log(banco.consultarCliente('Ramon Connell'));
+
+
+
+
 
 

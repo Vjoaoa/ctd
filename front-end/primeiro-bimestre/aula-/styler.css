@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 900px 1fr ;
+    grid-template-areas:
+    'main-header main-header'
+    'main-conter main-asside'
+    ;
+    
+}
+
+header{
+    grid-area: main-header;
+}
+
+main{
+    background-color: aquamarine;
+    grid-area: main-conter ;
+
+}
+main img{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 90px;
+	top: 90px;
+}
+
+main p{
+    font-size: 20px;
+
+}
+
+.descricao-main{
+    position: relative;
+    left: 10px;
+	top: 500px;
+}
+
+aside{
+    height: 800px;
+    color: blue;
+    grid-area: main-asside;
+    background-color: black;
+}
+
+section img{
+    width: 300px;
+    height: 200px;
+    object-position: center;
+}
+
+/* section{
+    display: flex;
+}
+
+section .tur{
+    display: flex;
+    flex-direction: column;
+    object-position: bottom; 
+} */

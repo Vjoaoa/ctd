@@ -45,12 +45,20 @@ console.log (cachorro(2,7));
 
 //exercio 06
 
-
 let peso = (83.5);
 let altura = (1.70);
-let imc = peso / (altura * altura);
+imc = peso / (altura * altura);   
 console.log (imc);
 console.log ( "seu índice de massa corporal é de" +imc+".");
 
+//exercio 07
 
+function string(palavra) {
+    console.log(palavra.toUpperCase());
+}
+
+console.log(string("joão"))
+
+
+//exercio 08
 

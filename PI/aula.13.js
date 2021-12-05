@@ -36,18 +36,18 @@
 // console.log(listacarros.cor);
 
 
-let atividade = {
-    "nome":"Christopher",
-    "profissao":"Programador",
-    "idade":25,
-    "linguagens":["PHP","Javascript","Dart"],
-    "disponibilidadeParaViajar":true,
-    "ramoProfissional": {
-        "anosDeExperiencia": 12,
-        "nivel": "Senior"
-    }
-}
-console.log (atividade); 
+// let atividade = {
+//     "nome":"Christopher",
+//     "profissao":"Programador",
+//     "idade":25,
+//     "linguagens":["PHP","Javascript","Dart"],
+//     "disponibilidadeParaViajar":true,
+//     "ramoProfissional": {
+//         "anosDeExperiencia": 12,
+//         "nivel": "Senior"
+//     }
+// }
+// console.log (atividade); 
 
 let META = {
     "nome":"João",

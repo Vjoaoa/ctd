@@ -52,3 +52,5 @@ console.log(elements.join(''));
 const ola = ["o","l","á"];
 
 console.log(ola.join(''));
+
+//ggdgfd

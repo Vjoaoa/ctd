@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-image: url("https://c4.wallpaperflare.com/wallpaper/544/620/1019/2014-fifa-world-cup-brazil-stadium-wallpaper-preview.jpg");
     background-repeat: no-repeat;
@@ -14,6 +16,12 @@ body{
     background-position: left center ;
 }
 
+@media (max-width: 700px){
+    body{
+
+    }
+
+}
 
 header{
     padding:10px;

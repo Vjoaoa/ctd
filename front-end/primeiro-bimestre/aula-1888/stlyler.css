@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+header {
+    background-color: white;
+    position: sticky;
+    top:0;
+    display: flex;
+}
+
+
+
+main{
+    
+    color: white;
+}
+/* 
+main{
+    height: 500px;
+    background-color: blue;
+} */
+
+/* main{ 
+    background-color: blue;
+}
+
+section{
+    width: 50%;
+    height: 100vh;
+    background-color: chartreuse;
+}
+
+.teste{
+
+} */

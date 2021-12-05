@@ -46,3 +46,5 @@ function calculaPorcentagem(x,y){
 }
 console.log (calculaPorcentagem(300,15))
 console.log ("-------------- Teste de Operações / Calculadora --------------")
+
+//pronto

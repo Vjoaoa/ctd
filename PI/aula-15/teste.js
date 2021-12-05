@@ -25,3 +25,4 @@ minhaFuncao(meucarro);
  * do objeto, mudado pela função.
  */
 console.log(meucarro.marca);
+
