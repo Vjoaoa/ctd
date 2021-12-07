@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(46, 45, 45);
+}
+
+h1{
+    color: white;
+}
+
+.carrousel-img{
+    height: 800px;
+    object-fit: contain;
+}
+.button{
+    left: 20px;
+}
+
+ .row{
+    color: rgb(207, 183, 183);
+
+} 
