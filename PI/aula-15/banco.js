@@ -8,6 +8,7 @@ function ContaBancaria(numero, tipo, saldo, titular) {
     this.titular = titular;
 }
 
+
 let listaUsuarios = []
 for (var i = 0; i < dadosJSON.length; i++) {
     listaUsuarios.push(new ContaBancaria(dadosJSON[i].numero, dadosJSON[i].tipo, dadosJSON[i].saldo, dadosJSON[i].titular))
